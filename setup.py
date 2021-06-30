@@ -26,7 +26,19 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     python_requires=">=3.5, <4",
     install_requires=[
-        'swag_auth',
+        "django==2.2.2",
+        "django-allauth==0.44.0",
+        "django-rest-auth==0.9.5",
+        "requests",
+        "django-encrypted-model-fields",
+        "PyGithub",
+        "djangorestframework",
+        "PyYAML",
+        "python-gitlab",
+        "bitbucket-api",
+        "atlassian-python-api",
+        "django-environ",
+        "giturlparse"
     ],
     include_package_data=True,
     setup_requires=["wheel"]
